@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+  background-image: url("star_wars.jpg");
+  height: 1440px;
+  width: 1250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.heading{
+  font-family: fantasy;
+  font-size: 600%;
+  color: white;
+  text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+              -1px -1px 0 #000;
+}
+.head{
+  font-family: cursive;
+  font-size: 400%;
+  color: white;
+  text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+              -1px -1px 0 #000;
+}
+.text{
+  font-family: republic;
+  font-size: 300%;
+  color: white;
+  text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+              -1px -1px 0 #000;
+}
+.button {
+  background-color: #DDDDDD;
+  border: 2px solid black;
+  color: black;
+  padding: 32px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 12px;
+  font-size: 20px;
+  width: 50%;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.button:hover {
+  background-color: black; /* Green */
+  color: #DDDDDD;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.my-table{
+  width: 100%;
+  text-align: center;
+}
